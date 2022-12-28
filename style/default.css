@@ -42,11 +42,34 @@ h1, h2 {
     font-size: 70px;
     line-height: 100%;
     letter-spacing: 0.01em;
-    color: aqua;
+    color: rgb(16, 19, 19);
     
 }
 
 .container {
     max-width: 1290px;
     margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button, input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
 }
