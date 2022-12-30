@@ -46,7 +46,7 @@
 @media (max-width: 1000px) {
     .navigation {
         display: none;
-        width: 100%;
+        /* width: 100%; */
     }
 
     .navigation__item {
@@ -68,8 +68,9 @@
 
     }
 
-    .navigation_active {
+    .navigation-active {
         display: block;
+        width: 100%;
     }
 }
 
@@ -90,6 +91,3 @@
     }
 }
 
-@media (max-width: 580px) {
-    
-}
