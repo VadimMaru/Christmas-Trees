@@ -30,15 +30,15 @@ background-image: url("../img/tree.svg");
 }
 
 .features__item-two {
-background-image: var(--url-features-two);
+background-image: var("../img/christmas-decorations.svg");
 }
 
 .features__item-three {
-background-image: var(--url-features-three);
+background-image: var("../img/flowers.svg");
 }
 
 .features__item-four {
-background-image: var(--url-features-four);
+background-image: var("../img/delivery-truck.svg");
 }
 
 @media (max-width: 1200px) {
