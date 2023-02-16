@@ -7,8 +7,6 @@
     border-radius: 12px;
     padding: 60px 85px;
     width: 100%;
-    /* display: none; */
-
 }
 
 .modal__close {
@@ -104,7 +102,6 @@
 }
 
 .modal__button:active {
-    /* background-color: var(---trigger-color); */
     color: var(--one-color);
     border-color: var(--second-bg-color);
 }
